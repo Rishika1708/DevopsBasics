@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Student Registration Form</title>
+
+  <link rel="stylesheet" href=D:\HTML\RegFormCss.css >
+
+  <script src=D:\HTML\Crypto.js></script>
+ 
+ </head>
+
+ <font color="#0033cc">
+ <center><u><h2>Student Registration Form</h2></u></center>
+ 
+<body  bgcolor="#33ffff"  >
+<font face="calibri" color="#000099"  >
+
+<table name="studet" cellspacing="3" >
+ <tr><td>FirstName</td>
+ <td>
+ <input type="text"  id="firstname" size="20" maxlength="30" placeholder="enter firstname">
+   </td>
+ </tr>
+
+ <tr><td>LastName</td>
+ <td><input type="text"  id="lastname" size="20" maxlength="30"  placeholder="enter lastname" ></td></tr>
+
+
+<tr><td>DateOfBirth</td>
+ <td><input type="date"  id="dob" min= "1990-01-01" max="2024-01-01" size="20" maxlength="30"  placeholder="enter dob"></td></tr>
+ 
+
+<tr><td>Email</td>
+ <td><input  size="20"  id="mail" type="text" name="dob" maxlength="30"  placeholder="enter email ID"></td></tr>
+
+
+ <tr><td>Mobile Number</td>
+ <td><input type="text"  id="mob"   size="20" maxlength="10"  
+       placeholder="123-456-7890"></td></tr>
+
+
+<tr><td>Password</td>
+ <td><input type="password"  id="encryptBut" name="passwordInput" size="20" maxlength="30"  placeholder="Enter password"></td></tr> 
+
+<tr><td>Gender</td>
+<td><select id="Gender" name="gen">
+<option value="">gender</option>
+<option value="Male">Male</option>
+<option value="Female">Female</option></select></td></tr> 
+
+
+<tr><td>Address</td>
+ <td><textarea id="address" =name="text" rows="4" cols="30"  placeholder="enter your address">
+</textarea></td></tr>
+
+
+ <tr><td>City</td>
+ <td><input type="text" id="cityname" size="20" maxlength="30"  placeholder="enter your city"></td></tr>
+
+<tr><td>PinCode</td>
+ <td><input id="pincode" type="text" size="20" maxlength="6"  placeholder="enter pincode"></td></tr> 
+
+
+<tr><td>State</td>
+ <td><input type="text" id="sta" size="20" maxlength="30"  placeholder="enter state"></td></tr>
+
+
+<tr><td>Country</td>
+ <td><input type="text" id="ctry" size="20" maxlength="30"  placeholder="enter country"></td></tr>
+
+
+<tr><td>Hobbies</td>
+<td>
+<input id="hob1" type="checkbox" name="hobbies_drawing" value="Drawing">Drawing
+
+<input id="hob2" type="checkbox" name="hobbies_cricket" value="cricket">Cricket
+
+<input id="hob3" type="checkbox" name="hobbies_reading" value="reading">Reading
+
+<input id="hob4" type="checkbox" name="hobbies_painting" value="painting">Painting
+
+<input id="hob5" type="checkbox" name="hobbies_other" value="other">other<input type="text" size="10" maxlength="20">
+</td>
+</tr> 
+
+
+<tr><td>Courses Applied </td>
+<td>
+<select id="course">
+<option value=" ">courses</option>
+  <option value="BCA">BCA</option>
+  <option value="ND">ND</option>
+  <option value="CS">CS</option>
+  <option value="FT">FT</option>
+  <option value="BCom">BCom</option>
+</select></td></tr>
+
+<table cellpadding="2">
+ 
+<tr><td><h4>Qualification</h4></td></tr>
+<tr>
+<td><b>SI.No.</td>
+<td><b>Examination </td>
+<td><b> Board</td>
+<td><b>Percentage</td>
+<td><b>Year of Passing</td>
+</tr>
+
+
+<tr >
+<td > 1  </td>
+<td> Class X </td>
+<td><input id="cls10" type="text" size="20" maxlength="20"></td>
+<td><input id="clss10" type="text" size="20" maxlength="20"></td>
+<td><input id="clsss10" type="text" size="20" maxlength="20"></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td> Class XII &nbsp</td>
+<td><input id="cls12" type="text" size="20" maxlength="20"></td>
+<td><input id="clss12" type="text" size="20" maxlength="20"></td>
+<td><input id="clsss12" type="text" size="20" maxlength="20"></td>
+</tr>
+
+<tr>
+<td>3  </td>
+<td> Graduation </td>
+<td><input id="gradu1" type="text" size="20" maxlength="20"></td>
+<td><input id="gradu2" type="text" size="20" maxlength="20"></td>
+<td><input id="gradu3" type="text" size="20" maxlength="20"></td>
+</tr>
+
+<tr>
+<td>4  </td>
+<td> Masters &nbsp </td>
+<td><input id="mas1" type="text" size="20" maxlength="20"></td>
+<td><input id="mas2" type="text" size="20" maxlength="20"></td>
+<td><input id="mas3" type="text" size="20" maxlength="20"></td>
+</tr> 
+ </table>
+ </table><br>
+
+<div  colspan="6" align="center">
+
+<button type="button" id="submitButton" onclick="Stu_det()" >Submit</button>
+<!--
+<button type="button" id="resetButton" onclick="resetform()" name="tbody" >reset</button></div>
+-->
+<button id="ResetButton" style="background-color:#ffcc33; border-color:blue;color:black">Reset</button>
+</div>
+
+
+</font>
+
+ </body>
+
+</html>
